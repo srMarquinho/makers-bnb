@@ -28,3 +28,5 @@
     "thinky": "^2.3.2"
   }
 }
+
+/*install casperjs globally: npm install casperjs -g*/

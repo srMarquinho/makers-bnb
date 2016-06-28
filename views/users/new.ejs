@@ -7,10 +7,14 @@
     <div>
         <h1>Please sign up</h1>
 
-        <form action='/users' method='post'>
+        <form action='/users' method='post' id='signUpForm'>
             <label for='email'>
                 Email:
-                <input name='email' type='text'>
+                <input name='email' type='email'>
+            </label>
+            <label for='name'>
+                Name:
+                <input name='name' type='text'>
             </label>
             <label for='password'>
                 Password:
