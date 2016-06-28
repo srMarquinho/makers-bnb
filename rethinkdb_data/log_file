@@ -1,0 +1,20 @@
+2016-06-28T14:04:13.306300000 0.285622s notice: Recursively removing directory /Users/jojograndjojo/Projects2/makers-bnb/rethinkdb_data/tmp
+2016-06-28T14:04:13.307453000 0.286778s notice: Initializing directory /Users/jojograndjojo/Projects2/makers-bnb/rethinkdb_data
+2016-06-28T14:04:13.307534000 0.286855s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jojograndjojo/Projects2/makers-bnb/rethinkdb_data' did not already exist or is empty.)
+2016-06-28T14:04:13.307575000 0.286896s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-28T14:04:13.313199000 0.292521s notice: Running on Darwin 15.5.0 x86_64
+2016-06-28T14:04:13.313259000 0.292580s notice: Loading data from directory /Users/jojograndjojo/Projects2/makers-bnb/rethinkdb_data
+2016-06-28T14:04:13.463079000 0.442355s info: Automatically using cache size of 275 MB
+2016-06-28T14:04:13.463823000 0.443099s error: TCP socket creation failed for port 29015: Address already in use.
+2016-06-28T14:54:14.228191000 0.298583s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-28T14:54:14.237366000 0.307760s notice: Running on Darwin 15.5.0 x86_64
+2016-06-28T14:54:14.237470000 0.307858s notice: Loading data from directory /Users/jojograndjojo/Projects2/makers-bnb/rethinkdb_data
+2016-06-28T14:54:14.267978000 0.338366s info: Automatically using cache size of 197 MB
+2016-06-28T14:54:14.269581000 0.339969s notice: Listening for intracluster connections on port 29015
+2016-06-28T14:54:14.271001000 0.341389s notice: Listening for client driver connections on port 28015
+2016-06-28T14:54:14.271102000 0.341490s notice: Listening for administrative HTTP connections on port 8080
+2016-06-28T14:54:14.271104000 0.341492s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-28T14:54:14.271107000 0.341495s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-28T14:54:14.271109000 0.341496s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-28T14:54:14.271112000 0.341500s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-28T14:54:14.271115000 0.341503s notice: Server ready, "Jonathans_MacBook_Pro_local_g78" d941c198-49e6-48a8-86e7-5cd2bd25ecbd

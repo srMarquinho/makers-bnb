@@ -10,8 +10,19 @@ app.get("/", function(req, res) {
   res.send("<h1>Hello World!</h1>")
 });
 
+app.get("/space/new", function(req, res) {
+  res.render("space/new.ejs")
+});
+
+app.post("/space", function(req, res) {
+  res.send("Amazing flat")
+});
+
 app.get("/index", function(req, res) {
-  res.render("index.ejs")
+  var space = new Space({
+    name
+
+  });
 });
 
 app.listen(3000, function() {
