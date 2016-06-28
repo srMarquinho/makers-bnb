@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/srMarquinho/makers-bnb#readme",
   "dependencies": {
+    "casper": "^0.1.1",
+    "ejs": "^2.4.2",
     "express": "^4.14.0",
     "jasmine-node": "^1.14.5"
   }
