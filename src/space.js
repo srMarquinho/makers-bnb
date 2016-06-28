@@ -1,9 +1,14 @@
-function Cow () {
-    this.mowed = false;
-    this.moo = function moo() {
-        this.mowed = true; // mootable state: don't do that at home
-        return 'moo!';
-    };
+function Space (name, description, price) {
+  this.name = name;
+  this.description = description;
+  this.price = price;
+  this.available = true;
+}
+
+Space.prototype = {
+  booked: function() {
+    this.available = false;
+  }
 }
 
 
@@ -11,4 +16,4 @@ function Cow () {
 
 
 //  this is for linking files for testing
-module.exports = Cow;
+module.exports = Space;
