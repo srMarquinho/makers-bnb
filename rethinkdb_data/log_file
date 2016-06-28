@@ -1,0 +1,18 @@
+2016-06-28T13:49:46.013366000 0.011745s notice: Recursively removing directory /Users/makers/Desktop/Weekday Daily Tasks/makers-bnb/rethinkdb_data/tmp
+2016-06-28T13:49:46.014758000 0.013141s notice: Initializing directory /Users/makers/Desktop/Weekday Daily Tasks/makers-bnb/rethinkdb_data
+2016-06-28T13:49:46.014857000 0.013236s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/makers/Desktop/Weekday Daily Tasks/makers-bnb/rethinkdb_data' did not already exist or is empty.)
+2016-06-28T13:49:46.014890000 0.013268s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-28T13:49:46.019479000 0.017859s notice: Running on Darwin 15.3.0 x86_64
+2016-06-28T13:49:46.019531000 0.017910s notice: Loading data from directory /Users/makers/Desktop/Weekday Daily Tasks/makers-bnb/rethinkdb_data
+2016-06-28T13:49:46.161137000 0.159516s info: Automatically using cache size of 997 MB
+2016-06-28T13:49:46.162690000 0.161069s notice: Listening for intracluster connections on port 29015
+2016-06-28T13:49:46.164501000 0.162880s notice: Listening for client driver connections on port 28015
+2016-06-28T13:49:46.164629000 0.163008s notice: Listening for administrative HTTP connections on port 8080
+2016-06-28T13:49:46.164632000 0.163011s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-28T13:49:46.164639000 0.163018s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-28T13:49:46.164641000 0.163020s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-28T13:49:46.164645000 0.163024s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-28T13:49:46.164649000 0.163028s notice: Server ready, "Makerss_MacBook_Air_local_4o3" 5963ab13-0ab0-48b1-abbb-ac93595fe722
+2016-06-28T13:54:09.740413000 263.732572s info: Table b796e8d6-b00f-483e-a772-91d8001d4f2b: Starting a new Raft election for term 1.
+2016-06-28T13:54:09.740657000 263.732815s info: Table b796e8d6-b00f-483e-a772-91d8001d4f2b: Added replica on this server.
+2016-06-28T13:54:09.766366000 263.758525s info: Table b796e8d6-b00f-483e-a772-91d8001d4f2b: This server is Raft leader for term 1. Latest log index is 0.
