@@ -1,19 +1,19 @@
 'use strict';
 
 var thinky = require('thinky')({
-  host : 'localhost',
-  port : 28015,
-  db : 'makersBnBTest'
+  host: 'localhost',
+  port: 28015,
+  db: 'makersBnBTest'
 });
 
 var r = thinky.r;
 var type = thinky.type;
 
 var Space = thinky.createModel("Space", {
-  name : type.string(),
-  description : type.string(),
-  price : type.number(),
-  available : type.boolean(),
+  name: type.string(),
+  description: type.string(),
+  price: type.number(),
+  available: type.boolean(),
 })
 
 exports.add = function (req, res) {

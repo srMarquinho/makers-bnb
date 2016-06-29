@@ -34,4 +34,3 @@ module.exports = User;
 //   password: "secret"
 // });
 // newUser.save();
-Status API Training Shop Blog About
