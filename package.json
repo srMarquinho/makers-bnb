@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/srMarquinho/makers-bnb#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "casper": "^0.1.1",
     "casperjs": "^1.1.1",
     "ejs": "^2.4.2",
@@ -28,5 +29,3 @@
     "thinky": "^2.3.2"
   }
 }
-
-/*install casperjs globally: npm install casperjs -g*/
