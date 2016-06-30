@@ -42,6 +42,15 @@ exports.update = function (req, res) {
   })
 }
 
+exports.getAll = function (req, res) {
+  Space.run().then(function(space) {
+    console.log(space);
+    res.json(space);
+  }).error(function(err) {
+    res.json({ message: err });
+  });
+};
+
 function Space() {
   this.booked = false
 };
@@ -53,5 +62,5 @@ Space.prototype = {
 }
 
 
-//  this is for linking files for testing
-module.exports = Space;
+//  this is for linking files for testing with jasmine
+// module.exports = Space;

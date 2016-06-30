@@ -74,7 +74,8 @@ app.post("/spaces", function(req, res) {
 });
 
 app.get("/spaces", function(req, res) {
-  res.render("spaces/index.ejs");
+  // res.render("spaces/index.ejs");
+  Space.getAll(req, res);
 });
 
 app.get("/spaces/booking", function(req, res) {

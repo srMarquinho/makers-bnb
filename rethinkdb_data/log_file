@@ -248,3 +248,26 @@
 2016-06-28T21:35:20.180164000 1.800436s info: Table b796e8d6-b00f-483e-a772-91d8001d4f2b: Starting a new Raft election for term 10.
 2016-06-28T21:35:20.207352000 1.827623s info: Table b796e8d6-b00f-483e-a772-91d8001d4f2b: This server is Raft leader for term 10. Latest log index is 28.
 >>>>>>> master
+2016-06-30T15:25:11.269922000 0.005722s notice: Recursively removing directory /Users/Marlon/Desktop/Makers/week6challenge/rethinkdb_data/tmp
+2016-06-30T15:25:11.270804000 0.006607s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.31))...
+2016-06-30T15:25:11.278107000 0.013911s notice: Running on Darwin 15.5.0 x86_64
+2016-06-30T15:25:11.278200000 0.013999s notice: Loading data from directory /Users/Marlon/Desktop/Makers/week6challenge/rethinkdb_data
+2016-06-30T15:25:11.315029000 0.050829s info: Automatically using cache size of 100 MB
+2016-06-30T15:25:11.315040000 0.050839s warn: Cache size does not leave much memory for server and query overhead (available memory: 938 MB).
+2016-06-30T15:25:11.315045000 0.050844s warn: Cache size is very low and may impact performance.
+2016-06-30T15:25:11.316468000 0.052268s notice: Listening for intracluster connections on port 29015
+2016-06-30T15:25:11.331143000 0.066943s notice: Listening for client driver connections on port 28015
+2016-06-30T15:25:11.331294000 0.067093s notice: Listening for administrative HTTP connections on port 8080
+2016-06-30T15:25:11.331297000 0.067096s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-30T15:25:11.331299000 0.067098s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-30T15:25:11.331390000 0.067189s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-30T15:25:11.331392000 0.067192s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-30T15:25:11.331395000 0.067194s notice: Server ready, "Jonathans_MacBook_Pro_local_g78" d941c198-49e6-48a8-86e7-5cd2bd25ecbd
+2016-06-30T15:25:12.496923000 1.232643s info: Table 1458b1d8-d5c0-4788-9b28-bb0b2f7a7d0a: Starting a new Raft election for term 3.
+2016-06-30T15:25:12.513855000 1.249575s info: Table 1458b1d8-d5c0-4788-9b28-bb0b2f7a7d0a: This server is Raft leader for term 3. Latest log index is 6.
+2016-06-30T15:25:54.426190000 43.160163s info: Table 674cfec1-1f2c-4b33-8108-76c3023b1bec: Starting a new Raft election for term 1.
+2016-06-30T15:25:54.426321000 43.160294s info: Table 674cfec1-1f2c-4b33-8108-76c3023b1bec: Added replica on this server.
+2016-06-30T15:25:54.438603000 43.172576s info: Table 9fe1a76a-2996-4e3a-8abd-d4c407e1b9e1: Starting a new Raft election for term 1.
+2016-06-30T15:25:54.438736000 43.172710s info: Table 9fe1a76a-2996-4e3a-8abd-d4c407e1b9e1: Added replica on this server.
+2016-06-30T15:25:54.447769000 43.181743s info: Table 674cfec1-1f2c-4b33-8108-76c3023b1bec: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-30T15:25:54.447850000 43.181824s info: Table 9fe1a76a-2996-4e3a-8abd-d4c407e1b9e1: This server is Raft leader for term 1. Latest log index is 0.
