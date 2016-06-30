@@ -1,7 +1,8 @@
 var express = require("express");
 var app = express();
+var bodyParser = require("body-parser");
+var Space = require("./src/space");
 var user = require('./src/user');
-var bodyParser = require('body-parser')
 // var http = require("http").createServer(app);
 app.use(bodyParser.urlencoded());
 app.use(bodyParser.json());
@@ -41,16 +42,47 @@ var User = thinky.createModel("User", {
 app.post("/users", function(req, res) {
   var user = new User({
     name: req.body.name,
-     email: req.body.email,
-     password: req.body.password
+    email: req.body.email,
+    password: req.body.password
   });
   user.save().then(function(result) {
-        res.json({
-            result: result
-        });
+    res.json({
+      result: result
     });
+  });
 
   res.redirect("/");
+});
+
+app.get("/spaces/new", function(req, res) {
+  res.render("spaces/new.ejs");
+});
+
+app.post("/spaces", function(req, res) {
+  var space = new Space({
+    name : req.body.name,
+    description : req.body.description,
+    price : req.body.price,
+    available : true
+  });
+  space.save().then(function(result) {
+    res.json({
+      result: result
+    });
+  });
+  res.redirect("/spaces");
+});
+
+app.get("/spaces", function(req, res) {
+  res.render("spaces/index.ejs");
+});
+
+app.get("/spaces/booking", function(req, res) {
+  res.render("spaces/booking.ejs");
+});
+
+app.get("/spaces/request-confirmation", function(req, res) {
+  res.render("spaces/requestConfirmation.ejs");
 });
 
 app.listen(3000, function() {
