@@ -4,11 +4,23 @@ casper.test.begin("can book a space", function(test) {
     casper.then(function() {
       this.clickLabel("Book this space", "button");
     });
-
-    console.log("can pick a date");
     casper.then(function() {
       test.assertTextExists("pick a date");
     });
+
+
+    console.log("can input a date");
+    casper.then(function() {
+      this.fill("form#calendar", {
+        "date": "01/01/2017"
+      });
+      this.clickLabel("Request booking", "button");
+    });
+
+    casper.then(function() {
+      test.assertTextExists("Your request has been submitted");
+    });
+
   }).run(function() {
     test.done();
   });

@@ -45,6 +45,10 @@ app.get("/spaces/booking", function(req, res) {
   res.render("spaces/booking.ejs");
 });
 
+app.get("/spaces/request-confirmation", function(req, res) {
+  res.render("spaces/requestConfirmation.ejs");
+});
+
 app.listen(3000, function() {
   console.log(":listening on port 3000");
 });
