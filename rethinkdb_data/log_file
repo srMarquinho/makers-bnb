@@ -304,3 +304,37 @@
 2016-06-30T17:06:50.796027000 420.322322s info: Table f0f75298-870f-40be-86e1-b0fddd6f92ac: This server is Raft leader for term 1. Latest log index is 0.
 2016-06-30T17:06:50.796085000 420.322380s info: Table ef5c483d-2e93-4bb1-a0ca-3e9de155a1a7: This server is Raft leader for term 1. Latest log index is 0.
 2016-06-30T17:06:50.796113000 420.322408s info: Table c619ed60-ad88-4d86-a438-101eabe83715: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-30T17:55:25.083611000 3334.508701s notice: Removing file /Users/MA/Google Drive/_MAKERS/Week06/makers-bnb/rethinkdb_data/1458b1d8-d5c0-4788-9b28-bb0b2f7a7d0a
+2016-06-30T17:55:25.083623000 3334.508712s info: Table 1458b1d8-d5c0-4788-9b28-bb0b2f7a7d0a: Deleted the table.
+2016-06-30T17:55:30.311121000 3339.736027s notice: Removing file /Users/MA/Google Drive/_MAKERS/Week06/makers-bnb/rethinkdb_data/c619ed60-ad88-4d86-a438-101eabe83715
+2016-06-30T17:55:30.311130000 3339.736035s info: Table c619ed60-ad88-4d86-a438-101eabe83715: Deleted the table.
+2016-06-30T17:55:30.345611000 3339.770517s notice: Removing file /Users/MA/Google Drive/_MAKERS/Week06/makers-bnb/rethinkdb_data/ef5c483d-2e93-4bb1-a0ca-3e9de155a1a7
+2016-06-30T17:55:30.345620000 3339.770525s info: Table ef5c483d-2e93-4bb1-a0ca-3e9de155a1a7: Deleted the table.
+2016-06-30T17:55:30.374692000 3339.799598s notice: Removing file /Users/MA/Google Drive/_MAKERS/Week06/makers-bnb/rethinkdb_data/f0f75298-870f-40be-86e1-b0fddd6f92ac
+2016-06-30T17:55:30.374705000 3339.799611s info: Table f0f75298-870f-40be-86e1-b0fddd6f92ac: Deleted the table.
+2016-06-30T17:56:32.177612000 3401.600413s notice: Server got SIGINT from pid 216, uid 501; shutting down...
+2016-06-30T17:56:32.177866000 3401.600667s notice: Shutting down client connections...
+2016-06-30T17:56:32.189302000 3401.612103s notice: All client connections closed.
+2016-06-30T17:56:32.189319000 3401.612119s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-30T17:56:32.189875000 3401.612676s notice: Storage engine shut down.
+2016-06-30T17:56:33.423810000 0.327719s notice: Running rethinkdb 2.3.4 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-30T17:56:33.444154000 0.348061s notice: Running on Darwin 15.5.0 x86_64
+2016-06-30T17:56:33.444210000 0.348115s notice: Loading data from directory /Users/MA/Google Drive/_MAKERS/Week06/makers-bnb/rethinkdb_data
+2016-06-30T17:56:33.488441000 0.392347s info: Automatically using cache size of 100 MB
+2016-06-30T17:56:33.488450000 0.392355s warn: Cache size does not leave much memory for server and query overhead (available memory: 1001 MB).
+2016-06-30T17:56:33.488455000 0.392360s warn: Cache size is very low and may impact performance.
+2016-06-30T17:56:33.489705000 0.393611s notice: Listening for intracluster connections on port 29015
+2016-06-30T17:56:33.491190000 0.395095s notice: Listening for client driver connections on port 28015
+2016-06-30T17:56:33.491313000 0.395218s notice: Listening for administrative HTTP connections on port 8080
+2016-06-30T17:56:33.491315000 0.395220s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-30T17:56:33.491319000 0.395224s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-30T17:56:33.491320000 0.395225s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-30T17:56:33.491323000 0.395229s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-30T17:56:33.491327000 0.395232s notice: Server ready, "Jonathans_MacBook_Pro_local_g78" d941c198-49e6-48a8-86e7-5cd2bd25ecbd
+2016-06-30T17:57:40.524031000 67.425728s info: Table f5747144-4904-476b-bd79-a8346a255db2: Starting a new Raft election for term 1.
+2016-06-30T17:57:40.524154000 67.425851s info: Table f5747144-4904-476b-bd79-a8346a255db2: Added replica on this server.
+2016-06-30T17:57:40.543549000 67.445246s info: Table 03be9b6a-1bc5-4a00-8321-623fa4ab8bc8: Starting a new Raft election for term 1.
+2016-06-30T17:57:40.543685000 67.445382s info: Table 03be9b6a-1bc5-4a00-8321-623fa4ab8bc8: Added replica on this server.
+2016-06-30T17:57:40.568774000 67.470471s info: Table f5747144-4904-476b-bd79-a8346a255db2: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-30T17:57:40.568879000 67.470575s info: Table 03be9b6a-1bc5-4a00-8321-623fa4ab8bc8: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-30T17:59:16.525133000 163.423635s error: Failed to parse one or more lines from the log file, the contents of the `logs` system table will be incomplete. The following parse error occurred: cannot parse log message (2) while parsing "<<<<<<< HEAD"

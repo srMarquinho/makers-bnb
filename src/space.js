@@ -5,8 +5,6 @@ var thinky = require('thinky')({
   port: 28015,
   db: 'makersBnbTest'
 });
-
-var r = thinky.r;
 var type = thinky.type;
 
 var Space = thinky.createModel("Space", {
@@ -38,13 +36,13 @@ exports.get = function (req, res) {
   });
 };
 
-exports.update = function (req, res) {
-  Space.get(req.params.id).run(),then(function(space) {
-    if (req.body.availability) {
-      space.availability = req.body.availability;
-    }
-  })
-}
+// exports.update = function (req, res) {
+//   Space.get(req.params.id).run(),then(function(space) {
+//     if (req.body.availability) {
+//       space.availability = req.body.availability;
+//     }
+//   })
+// };
 
 exports.getAll = function (req, res) {
   Space.run().then(function(spaces) {
@@ -54,16 +52,14 @@ exports.getAll = function (req, res) {
   });
 };
 
-function Space() {
-  this.booked = false
-};
+// function Space() {
+//   this.booked = false;
+// }
+// Space.prototype = {
+//   book : function() {
+//     this.booked = true;
+//   }
+// };
 
-Space.prototype = {
-  book : function() {
-    this.booked = true
-  }
-}
-
-
-//  this is for linking files for testing with jasmine
-// module.exports = Space;
+// linking files for testing with jasmine
+// module.exports = User;

@@ -4,8 +4,6 @@ var thinky = require('thinky')({
   port: 28015,
   db: 'makersBnbTest'
 });
-
-var r = thinky.r;
 var type = thinky.type;
 
 var User = thinky.createModel("User", {
@@ -24,13 +22,5 @@ exports.add = function (req, res) {
   });
 };
 
-//  this is for linking files for testing
-module.exports = User;
-
-// THIS IS AN EXAMPLE ON HOW TO CREATE ROWS AND STUFF
-// var newUser = new User({
-//   name: "Marco",
-//   email: "test@test.com",
-//   password: "secret"
-// });
-// newUser.save();
+// linking files for testing with jasmine
+// module.exports = User;
