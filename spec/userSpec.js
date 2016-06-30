@@ -9,6 +9,6 @@ describe("User", function() {
   });
 
   it("has a new user", function() {
-    expect(user.name).toEqual("Marlon")
+    expect(user.name).toEqual("Marlon");
   });
 });

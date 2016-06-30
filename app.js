@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var bodyParser = require("body-parser")
+var bodyParser = require("body-parser");
 var Space = require("./src/space");
 // var http = require("http").createServer(app);
 app.use(bodyParser.urlencoded());
@@ -11,15 +11,15 @@ app.use(bodyParser.json());
 app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
-  res.send("<h1>Hello World!</h1>")
+  res.send("<h1>Hello World!</h1>");
 });
 
 app.get("/index", function(req, res) {
   res.render("index.ejs");
-})
+});
 
 app.get("/spaces/new", function(req, res) {
-  res.render("spaces/new.ejs")
+  res.render("spaces/new.ejs");
 });
 
 app.post("/spaces", function(req, res) {
@@ -37,8 +37,12 @@ app.post("/spaces", function(req, res) {
   res.redirect("/spaces");
 });
 
-app.get("/spaces" function(req, res) {
-  res.render("spaces/index.ejs")
+app.get("/spaces", function(req, res) {
+  res.render("spaces/index.ejs");
+});
+
+app.get("/spaces/booking", function(req, res) {
+  res.render("spaces/booking.ejs");
 });
 
 app.listen(3000, function() {
