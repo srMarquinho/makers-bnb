@@ -4,4 +4,9 @@
   <form method="get" action="/spaces/booking">
     <button type="submit">Book this space</button>
   </form>
-<%= name %>
+<table>
+  <% spaces.forEach(function(space) { %>
+  <tr><%=space.name%> - <%=space.description%> - £<%=space.price%></tr>
+  <br>
+  <% }); %>
+</table>

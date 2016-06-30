@@ -59,17 +59,7 @@ app.get("/spaces/new", function(req, res) {
 });
 
 app.post("/spaces", function(req, res) {
-  var space = new Space({
-    name : req.body.name,
-    description : req.body.description,
-    price : req.body.price,
-    available : true
-  });
-  space.save().then(function(result) {
-    res.json({
-      result: result
-    });
-  });
+  Space.add(req, res);
   res.redirect("/spaces");
 });
 
