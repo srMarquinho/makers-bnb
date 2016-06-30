@@ -40,11 +40,7 @@ var User = thinky.createModel("User", {
 });
 
 app.post("/users", function(req, res) {
-  var user = new User({
-    name: req.body.name,
-    email: req.body.email,
-    password: req.body.password
-  });
+  var user = new User();
   user.save().then(function(result) {
     res.json({
       result: result
