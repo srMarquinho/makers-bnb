@@ -1,6 +1,6 @@
 
 casper.test.begin("has a form to list new space", function(test) {
-  casper.start("http://localhost:3000/space/new", function() {
+  casper.start("http://localhost:3000/spaces/new", function() {
     test.assertHttpStatus(200);
     test.assertExists("#space-form")
     test.assertExists("#name-of-space")
@@ -12,7 +12,7 @@ casper.test.begin("has a form to list new space", function(test) {
 })
 
 casper.test.begin("listing a new space", function(test) {
-  casper.start("http://localhost:3000/space/new", function() {
+  casper.start("http://localhost:3000/spaces/new", function() {
     this.fill("form#space-form", {
       "name": "Amazing flat",
       "description": "blabla",
