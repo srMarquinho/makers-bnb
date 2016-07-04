@@ -1,0 +1,32 @@
+{
+  "name": "makers-bnb",
+  "version": "1.0.0",
+  "description": "makers week 6 challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/ --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/srMarquinho/makers-bnb.git"
+  },
+  "author": "Marco, Apoorva, Jonathan, Marlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srMarquinho/makers-bnb/issues"
+  },
+  "homepage": "https://github.com/srMarquinho/makers-bnb#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "casper": "^0.1.1",
+    "casperjs": "^1.1.1",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "jasmine-node": "^1.14.5",
+    "nodemon": "^1.9.2",
+    "phantom": "^2.1.9",
+    "phantomjs": "^2.1.7",
+    "rethinkdb": "^2.3.2",
+    "thinky": "^2.3.2"
+  }
+}
